@@ -1,0 +1,23 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "tag": "rpp:stones"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "result": {
+    "item": "minecraft:repeater"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "redstone_lamp",
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RGR",
+    " R "
+  ],
+  "result": {
+    "item": "minecraft:redstone_lamp"
+  }
+}

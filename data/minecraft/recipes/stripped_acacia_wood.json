@@ -1,0 +1,19 @@
+{
+  "//": "仅改变组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stripped_bark",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:stripped_acacia_wood"
+  }
+}

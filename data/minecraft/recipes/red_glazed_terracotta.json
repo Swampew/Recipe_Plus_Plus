@@ -1,0 +1,12 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "group": "glazed_terracotta",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:red_terracotta"
+  },
+  "result": "minecraft:red_glazed_terracotta"
+}

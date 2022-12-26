@@ -1,0 +1,22 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "target",
+  "key": {
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RHR",
+    " R "
+  ],
+  "result": {
+    "item": "minecraft:target"
+  }
+}

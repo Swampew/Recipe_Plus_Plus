@@ -1,0 +1,17 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "banner_pattern",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "minecraft:skull_banner_pattern"
+  }
+}

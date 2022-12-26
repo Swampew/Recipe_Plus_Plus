@@ -1,0 +1,23 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "scaffolding",
+  "key": {
+    "I": {
+      "item": "minecraft:bamboo"
+    },
+    "~": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "I~I",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:scaffolding"
+  }
+}

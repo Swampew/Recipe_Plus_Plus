@@ -1,0 +1,17 @@
+{
+  "//": "仅添加组别,改变分类",
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "tnt_minecart",
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:tnt_minecart"
+  }
+}

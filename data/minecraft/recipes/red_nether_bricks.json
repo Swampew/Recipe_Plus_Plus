@@ -1,0 +1,21 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "red_nether_bricks",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_brick"
+    },
+    "W": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "result": {
+    "item": "minecraft:red_nether_bricks"
+  }
+}
