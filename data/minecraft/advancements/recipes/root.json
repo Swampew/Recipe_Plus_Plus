@@ -1,0 +1,9 @@
+{
+  "//":"添加上游进度只是为了代码上的统一;'requirements'在这里是不必要的,我将其删去",
+  "parent": "rpp:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
