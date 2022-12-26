@@ -1,0 +1,17 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "granite",
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "minecraft:granite"
+  }
+}

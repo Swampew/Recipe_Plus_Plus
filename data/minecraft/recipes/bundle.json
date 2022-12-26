@@ -1,0 +1,21 @@
+{
+  "//": "为1.19.2-添加,将它置于与官方相同的路径可以避免在1.19.3+使用时出现两个一样的配方",
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "-": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "-#-",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:bundle"
+  }
+}

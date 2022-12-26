@@ -1,0 +1,17 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "hopper_minecart",
+  "ingredients": [
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:hopper_minecart"
+  }
+}

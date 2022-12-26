@@ -1,0 +1,17 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "chest_minecart",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:chest_minecart"
+  }
+}

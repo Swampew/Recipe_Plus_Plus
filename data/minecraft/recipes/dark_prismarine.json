@@ -1,0 +1,22 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dark_prismarine",
+  "key": {
+    "I": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "result": {
+    "item": "minecraft:dark_prismarine"
+  }
+}
