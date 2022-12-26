@@ -1,0 +1,38 @@
+{
+  "parent": "rpp:dye/root",
+  "criteria": {
+    "put_water": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:cauldrons"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:water_bucket",
+            "minecraft:potion"
+          ]
+        }
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:dye/washing/glass_from_washing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "put_water",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:dye/washing/glass_from_washing"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:dye/root",
+  "criteria": {
+    "has_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rpp:glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:dye/glazed_terracotta/cyan_glazed_terracotta"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glazed_terracotta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:dye/glazed_terracotta/cyan_glazed_terracotta"
+    ]
+  }
+}

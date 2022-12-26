@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:renewability/root",
+  "criteria": {
+    "has_sponge":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:renewability/sponge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sponge",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:renewability/sponge"
+    ]
+  }
+}

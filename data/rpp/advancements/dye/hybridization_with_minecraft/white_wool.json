@@ -1,0 +1,33 @@
+{
+  "//":"其他颜色的配方位于\\minecraft 命名空间，此进度的上游进度与同类配方保持一致",
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:dye/hybridization_with_minecraft/white_wool"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:dye/hybridization_with_minecraft/white_wool"
+    ]
+  }
+}

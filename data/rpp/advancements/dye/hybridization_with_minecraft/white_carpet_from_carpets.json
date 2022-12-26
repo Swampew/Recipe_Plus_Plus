@@ -1,0 +1,46 @@
+{
+  "//":"其他颜色的配方位于\\minecraft 命名空间，此进度的上游进度与同类配方保持一致",
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rpp:carpets"
+          }
+        ]
+      }
+    },
+    "has_white_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:dye/hybridization_with_minecraft/white_carpet_from_carpets"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_carpet",
+      "has_white_dye",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:dye/hybridization_with_minecraft/white_carpet_from_carpets"
+    ]
+  }
+}
