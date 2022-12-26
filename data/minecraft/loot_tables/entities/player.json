@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_killer",
+          "predicate": {
+            "type": "player",
+            "equipment": {
+              "mainhand": {
+                "tag": "rpp:sharp_weapon"
+              }
+            }
+          }
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "fill_player_head",
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
