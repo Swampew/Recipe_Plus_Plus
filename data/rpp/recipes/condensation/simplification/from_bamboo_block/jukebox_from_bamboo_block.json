@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "jukebox",
+  "key": {
+    "1": {
+      "tag": "minecraft:bamboo_blocks"
+    },
+    "2":{
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "result": {
+    "item": "minecraft:jukebox"
+  }
+}

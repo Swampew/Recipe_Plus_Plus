@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "scaffolding",
+  "key": {
+    "1": {
+      "tag": "minecraft:bamboo_blocks"
+    },
+    "2": {
+      "item": "minecraft:cobweb"
+    }
+  },
+  "pattern": [
+    "121",
+    "1 1",
+    "1 1"
+  ],
+  "result": {
+    "item": "minecraft:scaffolding",
+    "count": 54
+  }
+}

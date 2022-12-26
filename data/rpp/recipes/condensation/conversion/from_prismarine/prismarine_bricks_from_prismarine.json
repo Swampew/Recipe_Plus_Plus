@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "prismarine_bricks",
+  "key": {
+    "1":{
+      "item": "minecraft:prismarine"
+    }
+  },
+  "pattern": [
+    "111",
+    "111",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:prismarine_bricks",
+    "count": 4
+  }
+}

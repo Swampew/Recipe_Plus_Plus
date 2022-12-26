@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "fishing_rod",
+  "ingredients": [
+    {
+      "tag": "rpp:riding_rods"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fishing_rod"
+  }
+}

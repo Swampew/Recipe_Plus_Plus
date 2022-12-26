@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chest_boat_from_planks",
+  "key": {
+    "1": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "2": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:bamboo_chest_raft"
+  }
+}

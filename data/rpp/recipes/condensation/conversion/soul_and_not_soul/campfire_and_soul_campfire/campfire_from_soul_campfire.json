@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "campfire",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_campfire"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "minecraft:campfire"
+  }
+}

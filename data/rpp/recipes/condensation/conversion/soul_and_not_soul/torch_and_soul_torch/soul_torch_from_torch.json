@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "soul_torch",
+  "key": {
+    "1":{
+      "item": "minecraft:torch"
+    },
+    "2":{
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "result": {
+    "item": "minecraft:soul_torch",
+    "count": 4
+  }
+}

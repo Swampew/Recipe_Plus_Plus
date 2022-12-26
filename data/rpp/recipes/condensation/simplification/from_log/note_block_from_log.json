@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "note_block",
+  "key": {
+    "1": {
+      "tag": "minecraft:logs"
+    },
+    "2":{
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "111",
+    "222",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:note_block",
+    "count": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "jukebox",
+  "key": {
+    "1": {
+      "tag": "minecraft:logs"
+    },
+    "2":{
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "111",
+    "222",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:jukebox",
+    "count": 3
+  }
+}

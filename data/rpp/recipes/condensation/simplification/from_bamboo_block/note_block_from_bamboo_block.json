@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "note_block",
+  "key": {
+    "1": {
+      "tag": "minecraft:bamboo_blocks"
+    },
+    "2":{
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "result": {
+    "item": "minecraft:note_block"
+  }
+}

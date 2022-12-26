@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "item_frame",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "minecraft:bamboo_blocks"
+    },
+    {
+      "tag": "minecraft:bamboo_blocks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:item_frame"
+  }
+} 

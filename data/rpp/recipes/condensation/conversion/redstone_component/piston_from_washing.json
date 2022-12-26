@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "piston",
+  "key": {
+    "1":{
+      "item": "minecraft:sticky_piston"
+    },
+    "2":{
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:piston",
+    "count": 8
+  }
+}

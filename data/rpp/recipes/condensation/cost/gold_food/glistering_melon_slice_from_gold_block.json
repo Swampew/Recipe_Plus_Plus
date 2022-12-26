@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "glistering_melon_slice",
+  "ingredients": [
+    {
+      "item": "minecraft:melon"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glistering_melon_slice",
+    "count": 9
+  }
+}

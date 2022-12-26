@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chest",
+  "key": {
+    "1": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "111",
+    "1 1",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:chest",
+    "count": 4
+  }
+}

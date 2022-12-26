@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "target",
+  "key": {
+    "1":{
+      "item": "minecraft:redstone_block"
+    },
+    "2":{
+      "item": "minecraft:hay_block"
+    }
+  },
+  "pattern": [
+    "222",
+    "111",
+    "222"
+  ],
+  "result": {
+    "item": "minecraft:target",
+    "count": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "red_nether_bricks",
+  "key": {
+    "1":{
+      "item": "minecraft:nether_wart_block"
+    },
+    "2":{
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "pattern": [
+    "222",
+    "111",
+    "222"
+  ],
+  "result": {
+    "item": "minecraft:red_nether_bricks",
+    "count": 12
+  }
+}

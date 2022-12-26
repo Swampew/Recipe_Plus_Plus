@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "granite",
+  "key": {
+    "1":{
+      "item": "minecraft:diorite"
+    },
+    "2":{
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "result": {
+    "item": "minecraft:granite",
+    "count": 4
+  }
+}
