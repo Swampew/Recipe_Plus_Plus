@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1": {
+      "item": "minecraft:splash_potion"
+    },
+    "2": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "222",
+    "212",
+    "222"
+  ],
+  "result": {
+    "item": "minecraft:experience_bottle"
+  }
+}

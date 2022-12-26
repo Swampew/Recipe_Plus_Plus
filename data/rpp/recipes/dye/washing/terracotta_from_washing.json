@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "1": {
+      "tag": "rpp:dyed_terracotta"
+    },
+    "2": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:terracotta",
+    "count": 8
+  }
+}

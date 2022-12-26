@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_concrete_powder",
+  "key": {
+    "1": {
+      "tag": "rpp:concrete_powder"
+    },
+    "2": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:light_blue_concrete_powder",
+    "count": 8
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_concrete",
+  "key": {
+    "1": {
+      "tag": "rpp:concrete"
+    },
+    "2": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:pink_concrete",
+    "count": 8
+  }
+}

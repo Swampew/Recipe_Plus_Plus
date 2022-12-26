@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:oak_slab"
+  },
+  "addition": {
+    "tag": "rpp:slabs_with_a_hardness_of_2_except_petrified_oak_slab"
+  },
+  "result": {
+    "item": "minecraft:petrified_oak_slab"
+  }
+}

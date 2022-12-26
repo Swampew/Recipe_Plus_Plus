@@ -1,0 +1,23 @@
+{
+  "//": "其他颜色的配方位于\\minecraft 命名空间",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dyed_carpet",
+  "key": {
+    "1": {
+      "tag": "rpp:carpets"
+    },
+    "2": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:white_carpet",
+    "count": 8
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "//":"其他颜色的配方位于\\minecraft 命名空间",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dyed_bed",
+  "ingredients": [
+    {
+      "tag": "minecraft:beds"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_bed"
+  }
+}

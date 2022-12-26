@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_glazed_terracotta",
+  "key": {
+    "1": {
+      "tag": "rpp:glazed_terracotta"
+    },
+    "2": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:red_glazed_terracotta",
+    "count": 8
+  }
+}
