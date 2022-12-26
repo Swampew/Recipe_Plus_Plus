@@ -1,0 +1,9 @@
+{
+  "//": "切石机配方的无效产物会自动替换为空气,低版本中会不可避免地出现空白配方",
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": "minecraft:raw_gold",
+  "count": 1
+}
