@@ -24,7 +24,7 @@ recipe++（以下简称rpp）添加了大量原版生存向配方，主要参照
 
 ### 特别提醒：
 - 本数据包修改了大量原版配方，大部分都是仅进行分类，我无法保证rpp与其他配方包的兼容性，但是大部分后果应该只是分类被破坏而已；
-- rpp在CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）下共享，您可以在遵守规则的情况下自由地使用这份作品。
+- rpp在[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)下共享，您可以在遵守规则的情况下自由地使用这份作品。
 
 不过说实话，这个数据包的技术含量并没有多少，基本上算个纯体力活。我尽可能地把它做到优雅，给其他人做好结实的轮子，希望它能给你带来一个舒服的体验~
 
@@ -168,7 +168,7 @@ recipe++（以下简称rpp）添加了大量原版生存向配方，主要参照
 彩蛋：玩家被手持剑、斧或三叉戟的玩家直接杀死时会掉落头颅。
 
 ## 特别鸣谢
-Minecraft Wiki团队和他们整理的详实资料；
-创小业和他的数据包教程，
-SunnySlopes、Molforte、唐沢咲川NaN、Xekr等人和他们启发我的既成作品，
+[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki)团队和他们整理的详实资料；
+[创小业](https://space.bilibili.com/133430292)和他的数据包教程，
+[SunnySlopes](https://space.bilibili.com/100377977)、[Molforte](https://space.bilibili.com/353561345)、[唐沢咲川NaN](https://space.bilibili.com/417883773)、[XeKr](https://space.bilibili.com/5930630)等人和他们启发我的既成作品，
 以及阅读并使用这份数据包的你。
