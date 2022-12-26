@@ -1,0 +1,22 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "painting",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:painting"
+  }
+}

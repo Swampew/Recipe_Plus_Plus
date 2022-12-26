@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dyed_carpet",
+  "key": {
+    "#": {
+      "tag": "rpp:carpets"
+    },
+    "$": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:light_gray_carpet"
+  }
+}
