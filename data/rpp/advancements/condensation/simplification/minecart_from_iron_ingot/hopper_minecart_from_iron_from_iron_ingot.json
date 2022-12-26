@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:condensation/simplification/root",
+  "criteria": {
+    "has_hopper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/simplification/minecart_from_iron_ingot/hopper_minecart_from_iron_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_hopper",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/simplification/minecart_from_iron_ingot/hopper_minecart_from_iron_ingot"
+    ]
+  }
+}

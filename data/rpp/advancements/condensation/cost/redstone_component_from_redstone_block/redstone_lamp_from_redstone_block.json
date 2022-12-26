@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:condensation/cost/root",
+  "criteria": {
+    "has_glowstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/cost/redstone_component_from_redstone_block/redstone_lamp_from_redstone_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glowstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/cost/redstone_component_from_redstone_block/redstone_lamp_from_redstone_block"
+    ]
+  }
+}

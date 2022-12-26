@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:condensation/simplification/root",
+  "criteria": {
+    "has_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/simplification/chest_boat_from_planks/birch_chest_boat_from_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chest",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/simplification/chest_boat_from_planks/birch_chest_boat_from_planks"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "rpp:condensation/cost/root",
+  "criteria": {
+    "has_iron_ingot_or_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/cost/lantern_from_iron_ingot/lantern_from_iron_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_ingot_or_nugget",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/cost/lantern_from_iron_ingot/lantern_from_iron_ingot"
+    ]
+  }
+}

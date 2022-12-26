@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:condensation/simplification/root",
+  "criteria": {
+    "has_lots_of_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {
+          "occupied": {
+            "min": 10
+          }
+        }
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/simplification/from_log/chest_from_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lots_of_items",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/simplification/from_log/chest_from_log"
+    ]
+  }
+}

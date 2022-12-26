@@ -1,0 +1,35 @@
+{
+  "parent": "rpp:condensation/simplification/root",
+  "criteria": {
+    "has_iron_ingot_or_block":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:iron_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/simplification/chain_from_iron_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_ingot_or_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/simplification/chain_from_iron_block"
+    ]
+  }
+}

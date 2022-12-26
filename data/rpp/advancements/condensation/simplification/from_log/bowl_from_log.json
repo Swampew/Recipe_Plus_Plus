@@ -1,0 +1,45 @@
+{
+  "parent": "rpp:condensation/simplification/root",
+  "criteria": {
+    "has_mushroom":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rpp:mushrooms"
+          }
+        ]
+      }
+    },
+    "has_mushroom_stew":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/simplification/from_log/bowl_from_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mushroom",
+      "has_mushroom_stew",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/simplification/from_log/bowl_from_log"
+    ]
+  }
+}

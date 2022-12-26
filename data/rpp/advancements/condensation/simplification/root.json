@@ -1,0 +1,9 @@
+{
+  "//": "为该命名空间的进度添加了统一的上游进度;这只是为了在代码上看起来更有条理,既不会显示,也没有实际作用",
+  "parent": "rpp:condensation/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

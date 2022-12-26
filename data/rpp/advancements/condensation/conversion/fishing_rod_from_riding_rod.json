@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:condensation/conversion/root",
+  "criteria": {
+    "has_riding_rod":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rpp:riding_rods"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/conversion/fishing_rod_from_riding_rod"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_riding_rod",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/conversion/fishing_rod_from_riding_rod"
+    ]
+  }
+}

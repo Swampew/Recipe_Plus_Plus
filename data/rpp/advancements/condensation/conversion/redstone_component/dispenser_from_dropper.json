@@ -1,0 +1,35 @@
+{
+  "parent": "rpp:condensation/conversion/root",
+  "criteria": {
+    "has_dropper_or_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dropper",
+              "minecraft:bow"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/conversion/redstone_component/dispenser_from_dropper"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dropper_or_bow",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/conversion/redstone_component/dispenser_from_dropper"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:condensation/simplification/root",
+  "criteria": {
+    "has_bamboo_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:bamboo_blocks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:condensation/simplification/from_bamboo_block/ladder_from_bamboo_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:condensation/simplification/from_bamboo_block/ladder_from_bamboo_block"
+    ]
+  }
+}
