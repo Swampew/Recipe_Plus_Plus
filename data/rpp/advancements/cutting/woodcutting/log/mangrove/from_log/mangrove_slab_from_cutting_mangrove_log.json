@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_mangrove_log":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:mangrove_logs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/mangrove/from_log/mangrove_stairs_from_cutting_mangrove_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mangrove_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/mangrove/from_log/mangrove_stairs_from_cutting_mangrove_log"
+    ]
+  }
+}

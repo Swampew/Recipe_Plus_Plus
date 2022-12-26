@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_jungle_log":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:jungle_logs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/jungle/from_log/jungle_slab_from_cutting_jungle_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/jungle/from_log/jungle_slab_from_cutting_jungle_log"
+    ]
+  }
+}

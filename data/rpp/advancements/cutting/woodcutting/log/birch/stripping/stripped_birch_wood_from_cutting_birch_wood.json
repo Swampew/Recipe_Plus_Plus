@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_birch_wood":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_wood"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/birch/stripping/stripped_birch_wood_from_cutting_birch_wood"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/birch/stripping/stripped_birch_wood_from_cutting_birch_wood"
+    ]
+  }
+}

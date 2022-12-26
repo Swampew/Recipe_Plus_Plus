@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_jungle_planks":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/jungle/from_planks/jungle_stairs_from_cutting_jungle_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/jungle/from_planks/jungle_stairs_from_cutting_jungle_planks"
+    ]
+  }
+}

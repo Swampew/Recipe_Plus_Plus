@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_warped_hyphae":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_hyphae"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/stem/warped/stripping/stripped_warped_hyphae_from_cutting_warped_hyphae"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_hyphae",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/stem/warped/stripping/stripped_warped_hyphae_from_cutting_warped_hyphae"
+    ]
+  }
+}

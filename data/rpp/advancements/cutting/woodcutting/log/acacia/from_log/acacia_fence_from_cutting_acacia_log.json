@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_acacia_log":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:acacia_logs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/acacia/from_log/acacia_fence_gate_from_cutting_acacia_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/acacia/from_log/acacia_fence_gate_from_cutting_acacia_log"
+    ]
+  }
+}

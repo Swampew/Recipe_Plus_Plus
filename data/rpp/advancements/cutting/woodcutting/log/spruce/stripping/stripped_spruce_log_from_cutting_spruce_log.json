@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_spruce_log":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/spruce/stripping/stripped_spruce_log_from_cutting_spruce_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spruce_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/spruce/stripping/stripped_spruce_log_from_cutting_spruce_log"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_warped_stem":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:warped_stems"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/stem/warped/from_stem/warped_fence_from_cutting_warped_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_stem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/stem/warped/from_stem/warped_fence_from_cutting_warped_stem"
+    ]
+  }
+}

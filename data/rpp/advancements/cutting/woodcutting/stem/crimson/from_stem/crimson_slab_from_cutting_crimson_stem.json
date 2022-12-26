@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_crimson_stem":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:crimson_stems"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/stem/crimson/from_stem/crimson_slab_from_cutting_crimson_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_stem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/stem/crimson/from_stem/crimson_slab_from_cutting_crimson_stem"
+    ]
+  }
+}

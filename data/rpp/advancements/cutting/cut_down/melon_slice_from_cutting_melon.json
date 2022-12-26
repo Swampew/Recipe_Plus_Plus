@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/cut_down/root",
+  "criteria": {
+    "has_melon":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/cut_down/melon_slice_from_cutting_melon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_melon",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/cut_down/melon_slice_from_cutting_melon"
+    ]
+  }
+}

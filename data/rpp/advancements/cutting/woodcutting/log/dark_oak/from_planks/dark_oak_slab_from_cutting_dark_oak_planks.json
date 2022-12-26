@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_dark_oak_planks":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/dark_oak/from_planks/dark_oak_slab_from_cutting_dark_oak_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dark_oak_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/dark_oak/from_planks/dark_oak_slab_from_cutting_dark_oak_planks"
+    ]
+  }
+}

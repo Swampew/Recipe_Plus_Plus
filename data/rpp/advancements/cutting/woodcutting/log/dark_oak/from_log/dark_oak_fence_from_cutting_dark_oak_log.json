@@ -1,0 +1,32 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_dark_oak_log":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:dark_oak_logs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/log/dark_oak/from_log/dark_oak_fence_gate_from_cutting_dark_oak_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dark_oak_log",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/log/dark_oak/from_log/dark_oak_fence_gate_from_cutting_dark_oak_log"
+    ]
+  }
+}
