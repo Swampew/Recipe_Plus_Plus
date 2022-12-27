@@ -190,10 +190,16 @@ recipe++（简称rpp）添加了大量原版生存向配方，主要参照1.19�
 
 ## 特别鸣谢
 
-[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki)团队和他们整理的详实资料，
+[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki)团队：他们整理的详实资料为了提供了无比强大的帮助；
 
-[创小业](https://space.bilibili.com/133430292)和他的数据包教程，
+[创小业](https://space.bilibili.com/133430292)：他的[数据包系列教程](https://www.bilibili.com/video/BV1jS4y1j77W)将我引入数据包制作的大门；
 
-[SunnySlopes](https://space.bilibili.com/100377977)、[Molforte](https://space.bilibili.com/353561345)、[唐沢咲川NaN](https://space.bilibili.com/417883773)、[XeKr](https://space.bilibili.com/5930630)等人和他们启发我的既成作品，
+[SunnySlopes](https://space.bilibili.com/100377977)：[cv11805605](https://www.bilibili.com/read/cv11805605)点燃了我的创作动力，启发了下界合金锭分解、枯木再生、粗矿切制、龙头合成、物品褪色、发射器合成、无序合成等配方；
+
+[XeKr](https://space.bilibili.com/5930630)：[cv12992062](https://www.bilibili.com/read/cv12992062)，启发了原木合箱子、铁锭合矿车、切石机分解、活塞去黏性、附魔金苹果等配方；
+
+[Molforte](https://space.bilibili.com/353561345)：[cv9789415](https://www.bilibili.com/read/cv9789415)，启发了铁砧修复配方；
+
+[唐沢咲川NaN](https://space.bilibili.com/417883773)：[cv16388612](https://www.bilibili.com/read/cv16388612)，启发了石化橡木台阶配方；
 
 以及阅读并使用这份数据包的你。
