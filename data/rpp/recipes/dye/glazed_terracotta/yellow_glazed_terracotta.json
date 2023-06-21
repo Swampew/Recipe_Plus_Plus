@@ -1,11 +1,55 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "stained_glazed_terracotta",
+  "group": "dye_glazed_terracotta",
   "key": {
-    "1": {
-      "tag": "rpp:glazed_terracotta"
-    },
+    "1": [
+      {
+        "item": "minecraft:black_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:blue_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:brown_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:cyan_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:green_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:light_blue_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:light_gray_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:lime_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:magenta_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:purple_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:red_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:white_glazed_terracotta"
+      }
+    ],
     "2": {
       "item": "minecraft:yellow_dye"
     }

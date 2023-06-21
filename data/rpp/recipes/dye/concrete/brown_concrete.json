@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dye_concrete",
+  "key": {
+    "1": [
+      {
+        "item": "minecraft:black_concrete"
+      },
+      {
+        "item": "minecraft:blue_concrete"
+      },
+      {
+        "item": "minecraft:cyan_concrete"
+      },
+      {
+        "item": "minecraft:gray_concrete"
+      },
+      {
+        "item": "minecraft:green_concrete"
+      },
+      {
+        "item": "minecraft:light_blue_concrete"
+      },
+      {
+        "item": "minecraft:light_gray_concrete"
+      },
+      {
+        "item": "minecraft:lime_concrete"
+      },
+      {
+        "item": "minecraft:magenta_concrete"
+      },
+      {
+        "item": "minecraft:orange_concrete"
+      },
+      {
+        "item": "minecraft:pink_concrete"
+      },
+      {
+        "item": "minecraft:purple_concrete"
+      },
+      {
+        "item": "minecraft:red_concrete"
+      },
+      {
+        "item": "minecraft:white_concrete"
+      },
+      {
+        "item": "minecraft:yellow_concrete"
+      }
+    ],
+    "2": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "minecraft:brown_concrete",
+    "count": 8
+  }
+}
