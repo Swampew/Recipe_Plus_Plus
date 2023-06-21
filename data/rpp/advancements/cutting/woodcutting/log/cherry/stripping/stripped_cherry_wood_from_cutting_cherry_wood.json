@@ -1,13 +1,13 @@
 {
   "parent": "rpp:cutting/woodcutting/root",
   "criteria": {
-    "has_cherry_log":{
+    "has_cherry_wood":{
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cherry_log"
+              "minecraft:cherry_wood"
             ]
           }
         ]
@@ -16,19 +16,19 @@
     "has_the_recipe":{
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "rpp:cutting/woodcutting/log/cherry/stripping/stripped_cherry_log_from_cutting_cherry_log"
+        "recipe": "rpp:cutting/woodcutting/log/cherry/stripping/stripped_cherry_wood_from_cutting_cherry_wood"
       }
     }
   },
   "requirements": [
     [
-      "has_cherry_log",
+      "has_cherry_wood",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "rpp:cutting/woodcutting/log/cherry/stripping/stripped_cherry_log_from_cutting_cherry_log"
+      "rpp:cutting/woodcutting/log/cherry/stripping/stripped_cherry_wood_from_cutting_cherry_wood"
     ]
   }
 }
