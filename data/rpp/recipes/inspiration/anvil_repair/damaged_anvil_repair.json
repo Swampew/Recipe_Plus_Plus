@@ -1,5 +1,6 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
+  "template": [],
   "base": {
     "item": "minecraft:damaged_anvil"
   },
@@ -8,5 +9,6 @@
   },
   "result": {
     "item": "minecraft:chipped_anvil"
-  }
+  },
+  "show_notification": false
 }

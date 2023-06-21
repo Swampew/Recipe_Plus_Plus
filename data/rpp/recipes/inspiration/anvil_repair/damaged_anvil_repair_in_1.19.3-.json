@@ -1,14 +1,13 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": [],
+  "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:chipped_anvil"
+    "item": "minecraft:damaged_anvil"
   },
   "addition": {
     "item": "minecraft:iron_block"
   },
   "result": {
-    "item": "minecraft:anvil"
+    "item": "minecraft:chipped_anvil"
   },
   "show_notification": false
 }
