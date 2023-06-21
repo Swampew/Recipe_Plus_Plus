@@ -1,20 +1,16 @@
 {
+  "//": [
+    "参照1.20的新染色配方重写的获取方式",
+    "不再能由玻璃板解锁",
+    "1.17修改了物品谓词,'has_needed_dye'处做兼容处理"
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_glass_pane": {
+    "has_needed_dye": {
       "conditions": {
         "items": [
           {
-            "tag": "rpp:glass_panes"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_cyan_dye": {
-      "conditions": {
-        "items": [
-          {
+            "item": "minecraft:cyan_dye",
             "items": [
               "minecraft:cyan_dye"
             ]
@@ -32,8 +28,7 @@
   },
   "requirements": [
     [
-      "has_glass_pane",
-      "has_cyan_dye",
+      "has_needed_dye",
       "has_the_recipe"
     ]
   ],
