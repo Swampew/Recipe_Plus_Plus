@@ -1,0 +1,17 @@
+{
+  "//": "末影龙死亡时掉落龙首",
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/ender_dragon",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head"
+        }
+      ]
+    }
+  ]
+}
