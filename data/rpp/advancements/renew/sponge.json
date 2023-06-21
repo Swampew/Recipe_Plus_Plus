@@ -16,7 +16,7 @@
     "has_the_recipe":{
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "rpp:renewability/sponge"
+        "recipe": "rpp:renew/sponge"
       }
     }
   },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rpp:renewability/sponge"
+      "rpp:renew/sponge"
     ]
   }
 }
