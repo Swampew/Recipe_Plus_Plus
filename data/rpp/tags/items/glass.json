@@ -1,0 +1,13 @@
+{
+  "//": [
+    "用于以下文件:",
+    "minecraft:recipes/beacon",
+    "minecraft:recipes/daylight_detector",
+    "minecraft:recipes/glass_bottle",
+    "minecraft:recipes/tinted_glass.json"
+  ],
+  "values": [
+    "minecraft:glass",
+    "#rpp:dye/stained_glass"
+  ]
+}

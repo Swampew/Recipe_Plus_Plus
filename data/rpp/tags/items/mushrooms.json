@@ -1,0 +1,11 @@
+{
+  "//": [
+    "用于以下文件:",
+    "rpp:advancements/condensation/simplification/from_log/bowl_from_log.json",
+    "minecraft:recipes/rabbit_stew_from_brown_mushroom.json"
+  ],
+  "values": [
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom"
+  ]
+}

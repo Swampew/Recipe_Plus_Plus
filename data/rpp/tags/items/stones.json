@@ -1,0 +1,12 @@
+{
+  "//": [
+    "用于以下文件:",
+    "minecraft:recipes/comparator.json",
+    "minecraft:recipes/repeater.json",
+    "minecraft:recipes/stonecutter.json"
+  ],
+  "values": [
+    "minecraft:stone",
+    "minecraft:deepslate"
+  ]
+}

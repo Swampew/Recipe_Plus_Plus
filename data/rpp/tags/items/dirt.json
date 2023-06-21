@@ -1,0 +1,10 @@
+{
+  "//": [
+    "用于以下文件:",
+    "minecraft:recipes/coarse_dirt.json"
+  ],
+  "values": [
+    "#rpp:dirt_in_1.16.5-",
+    "minecraft:rooted_dirt"
+  ]
+}

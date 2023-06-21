@@ -1,0 +1,15 @@
+{
+  "//": [
+    "用于以下文件:",
+    "minecraft:recipes/coarse_dirt.json",
+    "rpp:tags/items/dirt.json"
+  ],
+  "values": [
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:mycelium",
+    "minecraft:dirt_path",
+    "minecraft:farmland"
+  ]
+}

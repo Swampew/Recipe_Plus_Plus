@@ -1,0 +1,13 @@
+{
+  "//": [
+    "用于以下文件:",
+    "rpp:recipes/renew/heart_of_the_sea.json"
+  ],
+  "values": [
+    "minecraft:tube_coral_block",
+    "minecraft:brain_coral_block",
+    "minecraft:bubble_coral_block",
+    "minecraft:fire_coral_block",
+    "minecraft:horn_coral_block"
+  ]
+}

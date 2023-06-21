@@ -1,0 +1,10 @@
+{
+  "//":[
+    "用于以下文件:",
+    "rpp:recipes/stone/deepslate.json"
+  ],
+  "values": [
+    "minecraft:sandstone",
+    "minecraft:red_sandstone"
+  ]
+}
