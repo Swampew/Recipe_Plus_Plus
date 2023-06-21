@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "rpp:cutting/woodcutting/bamboo/from_block/bamboo_fence_from_cutting_bamboo_block"
+        "recipe": "rpp:cutting/woodcutting/bamboo/from_block/bamboo_mosaic_slab_from_cutting_bamboo_block"
       }
     }
   },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rpp:cutting/woodcutting/bamboo/from_block/bamboo_fence_from_cutting_bamboo_block"
+      "rpp:cutting/woodcutting/bamboo/from_block/bamboo_mosaic_slab_from_cutting_bamboo_block"
     ]
   }
 }
