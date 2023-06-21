@@ -16,7 +16,7 @@
     "has_the_recipe":{
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "rpp:cutting/woodcutting/log/cherry/from_planks/cherry_slab_from_cutting_cherry_planks"
+        "recipe": "rpp:cutting/woodcutting/log/cherry/from_planks/cherry_stairs_from_cutting_cherry_planks"
       }
     }
   },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rpp:cutting/woodcutting/log/cherry/from_planks/cherry_slab_from_cutting_cherry_planks"
+      "rpp:cutting/woodcutting/log/cherry/from_planks/cherry_stairs_from_cutting_cherry_planks"
     ]
   }
 }
