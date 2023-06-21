@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:renew/root",
+  "criteria": {
+    "has_gilded_blackstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:renew/gilded_blackstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gilded_blackstone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:renew/gilded_blackstone"
+    ]
+  }
+}

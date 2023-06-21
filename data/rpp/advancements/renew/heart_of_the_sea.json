@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:renew/root",
+  "criteria": {
+    "has_heart_of_the_sea":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heart_of_the_sea"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe":{
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:renew/heart_of_the_sea"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_heart_of_the_sea",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:renew/heart_of_the_sea"
+    ]
+  }
+}
