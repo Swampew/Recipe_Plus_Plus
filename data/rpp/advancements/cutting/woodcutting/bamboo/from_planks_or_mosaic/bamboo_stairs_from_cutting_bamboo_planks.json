@@ -1,0 +1,34 @@
+{
+  "parent": "rpp:cutting/woodcutting/root",
+  "criteria": {
+    "has_bamboo_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:cutting/woodcutting/bamboo/from_planks_or_mosaic/bamboo_stairs_from_cutting_bamboo_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:cutting/woodcutting/bamboo/from_planks_or_mosaic/bamboo_stairs_from_cutting_bamboo_planks"
+    ]
+  }
+}
