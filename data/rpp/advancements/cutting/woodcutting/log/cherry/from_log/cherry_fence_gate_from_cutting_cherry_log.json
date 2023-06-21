@@ -14,7 +14,7 @@
     "has_the_recipe":{
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "rpp:cutting/woodcutting/log/cherry/from_log/cherry_fence_gate_from_cutting_cherry_log"
+        "recipe": "rpp:cutting/woodcutting/log/cherry/from_log/cherry_fence_from_cutting_cherry_log"
       }
     }
   },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rpp:cutting/woodcutting/log/cherry/from_log/cherry_fence_gate_from_cutting_cherry_log"
+      "rpp:cutting/woodcutting/log/cherry/from_log/cherry_fence_from_cutting_cherry_log"
     ]
   }
 }
