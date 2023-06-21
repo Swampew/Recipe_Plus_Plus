@@ -18,17 +18,25 @@
       "conditions": {
         "recipe": "rpp:inspiration/petrified_oak_slab"
       }
+    },
+    "has_the_recipe_in_1.19.3-": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:inspiration/petrified_oak_slab_in_1.19.3-"
+      }
     }
   },
   "requirements": [
     [
       "has_oak_slab",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_the_recipe_in_1.19.3-"
     ]
   ],
   "rewards": {
     "recipes": [
-      "rpp:inspiration/petrified_oak_slab"
+      "rpp:inspiration/petrified_oak_slab",
+      "rpp:inspiration/petrified_oak_slab_in_1.19.3-"
     ]
   }
 }
