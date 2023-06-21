@@ -6,7 +6,10 @@
       "conditions": {
         "items": [
           {
-            "tag": "rpp:riding_rods"
+            "items": [
+              "minecraft:carrot_on_a_stick",
+              "minecraft:warped_fungus_on_a_stick"
+            ]
           }
         ]
       }
