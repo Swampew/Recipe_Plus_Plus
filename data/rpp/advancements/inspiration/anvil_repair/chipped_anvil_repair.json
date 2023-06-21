@@ -6,6 +6,7 @@
       "conditions": {
         "items": [
           {
+            "item": "minecraft:chipped_anvil",
             "items": [
               "minecraft:chipped_anvil"
             ]
@@ -18,17 +19,25 @@
       "conditions": {
         "recipe": "rpp:inspiration/anvil_repair/chipped_anvil_repair"
       }
+    },
+    "has_the_recipe_in_1.19.3-": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:inspiration/anvil_repair/chipped_anvil_repair_in_1.19.3-"
+      }
     }
   },
   "requirements": [
     [
       "has_chipped_anvil",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_the_recipe_in_1.19.3-"
     ]
   ],
   "rewards": {
     "recipes": [
-      "rpp:inspiration/anvil_repair/chipped_anvil_repair"
+      "rpp:inspiration/anvil_repair/chipped_anvil_repair",
+      "rpp:inspiration/anvil_repair/chipped_anvil_repair_in_1.19.3-"
     ]
   }
 }
