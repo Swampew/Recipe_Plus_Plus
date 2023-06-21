@@ -1,12 +1,15 @@
 {
   "parent": "rpp:dye/root",
   "criteria": {
-    "has_glazed_terracotta": {
+    "has_needed_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "rpp:glazed_terracotta"
+            "item": "minecraft:red_dye",
+            "items": [
+              "minecraft:red_dye"
+            ]
           }
         ]
       }
@@ -20,7 +23,7 @@
   },
   "requirements": [
     [
-      "has_glazed_terracotta",
+      "has_needed_dye",
       "has_the_recipe"
     ]
   ],
