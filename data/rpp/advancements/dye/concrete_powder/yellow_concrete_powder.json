@@ -1,0 +1,35 @@
+{
+  "parent": "rpp:dye/root",
+  "criteria": {
+    "has_needed_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_dye",
+            "items": [
+              "minecraft:yellow_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rpp:dye/concrete_powder/yellow_concrete_powder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_needed_dye",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rpp:dye/concrete_powder/yellow_concrete_powder"
+    ]
+  }
+}
