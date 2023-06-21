@@ -1,0 +1,66 @@
+{
+  "//": [
+    "从1.20移植,将它置于官方同名路径可以避免在1.20+出现重复配方",
+    "修改分类为'杂项'",
+    "同'地毯合成'拆分",
+    "取代了1.19.4-的'地毯染色'配方"
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye_carpet",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+    [
+      {
+        "item": "minecraft:black_carpet"
+      },
+      {
+        "item": "minecraft:blue_carpet"
+      },
+      {
+        "item": "minecraft:brown_carpet"
+      },
+      {
+        "item": "minecraft:cyan_carpet"
+      },
+      {
+        "item": "minecraft:gray_carpet"
+      },
+      {
+        "item": "minecraft:green_carpet"
+      },
+      {
+        "item": "minecraft:light_blue_carpet"
+      },
+      {
+        "item": "minecraft:light_gray_carpet"
+      },
+      {
+        "item": "minecraft:lime_carpet"
+      },
+      {
+        "item": "minecraft:magenta_carpet"
+      },
+      {
+        "item": "minecraft:orange_carpet"
+      },
+      {
+        "item": "minecraft:pink_carpet"
+      },
+      {
+        "item": "minecraft:red_carpet"
+      },
+      {
+        "item": "minecraft:yellow_carpet"
+      },
+      {
+        "item": "minecraft:white_carpet"
+      }
+    ]
+  ],
+  "result": {
+    "item": "minecraft:purple_carpet"
+  }
+}

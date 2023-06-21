@@ -1,0 +1,66 @@
+{
+  "//": [
+    "从1.20移植,将它置于官方同名路径可以避免在1.20+出现重复配方",
+    "修改分类为'杂项'",
+    "同'床合成'拆分",
+    "取代了1.19.4-的'床染色'配方"
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye_bed",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    [
+      {
+        "item": "minecraft:black_bed"
+      },
+      {
+        "item": "minecraft:blue_bed"
+      },
+      {
+        "item": "minecraft:brown_bed"
+      },
+      {
+        "item": "minecraft:cyan_bed"
+      },
+      {
+        "item": "minecraft:gray_bed"
+      },
+      {
+        "item": "minecraft:green_bed"
+      },
+      {
+        "item": "minecraft:light_blue_bed"
+      },
+      {
+        "item": "minecraft:lime_bed"
+      },
+      {
+        "item": "minecraft:magenta_bed"
+      },
+      {
+        "item": "minecraft:orange_bed"
+      },
+      {
+        "item": "minecraft:pink_bed"
+      },
+      {
+        "item": "minecraft:purple_bed"
+      },
+      {
+        "item": "minecraft:red_bed"
+      },
+      {
+        "item": "minecraft:yellow_bed"
+      },
+      {
+        "item": "minecraft:white_bed"
+      }
+    ]
+  ],
+  "result": {
+    "item": "minecraft:light_gray_bed"
+  }
+}
