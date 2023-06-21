@@ -1,5 +1,5 @@
 {
-  "//": "仅添加组别",
+  "//": "仅添加组别,改变分类",
   "type": "minecraft:crafting_shapeless",
   "category": "redstone",
   "group": "chest_minecart",

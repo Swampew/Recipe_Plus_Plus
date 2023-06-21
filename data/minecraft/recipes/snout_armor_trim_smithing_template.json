@@ -1,0 +1,27 @@
+{
+  "//": "仅添加组别",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "armor_trim_smithing_template",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "minecraft:snout_armor_trim_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:snout_armor_trim_smithing_template"
+  },
+  "show_notification": true
+}

@@ -1,11 +1,20 @@
 {
+  "//": [
+    "可用任意圆石合成",
+    "#stone_crafting_materials于1.16引入,故'#'处必须分离"
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "group": "piston",
   "key": {
-    "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
+    "#": [
+      {
+        "item": "minecraft:cobblestone"
+      },
+      {
+        "tag": "minecraft:stone_crafting_materials"
+      }
+    ],
     "R": {
       "item": "minecraft:redstone"
     },

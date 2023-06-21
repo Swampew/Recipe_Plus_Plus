@@ -1,13 +1,22 @@
 {
+  "//": [
+    "可用任意石头合成",
+    "深板岩于1.17引入,故'I'处必须分离"
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"
     },
-    "I": {
-      "tag": "rpp:stones"
-    },
+    "I": [
+      {
+        "item": "minecraft:stone"
+      },
+      {
+        "tag": "rpp:stones"
+      }
+    ],
     "X": {
       "item": "minecraft:quartz"
     }

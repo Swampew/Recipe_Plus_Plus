@@ -1,3 +1,6 @@
 {
-  "//": "留空,合并后的配方在\\rabbit_stew_from_brown_mushroom "
+  "//": [
+    "两个兔肉煲配方的解锁条件完全相同,合并为一",
+    "此处留空,合并的配方在minecraft:recipes/rabbit_stew_from_brown_mushroom.json"
+  ]
 }

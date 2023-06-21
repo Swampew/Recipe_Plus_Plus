@@ -1,10 +1,19 @@
 {
+  "//": [
+    "可用任意泥土合成",
+    "1.16.1-无法读取含有'request'键的标签,而缠根泥土于1.17引入,故'D'处必须分离"
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "D": {
-      "tag": "rpp:dirt"
-    },
+    "D": [
+      {
+        "tag": "rpp:dirt_in_1.16.5-"
+      },
+      {
+        "tag": "rpp:dirt"
+      }
+    ],
     "G": {
       "item": "minecraft:gravel"
     }
