@@ -3,9 +3,14 @@
   "category": "equipment",
   "group": "fishing_rod",
   "ingredients": [
-    {
-      "tag": "rpp:riding_rods"
-    }
+    [
+      {
+        "item": "minecraft:carrot_on_a_stick"
+      },
+      {
+        "item":"warped_fungus_on_a_stick"
+      }
+    ]
   ],
   "result": {
     "item": "minecraft:fishing_rod"
