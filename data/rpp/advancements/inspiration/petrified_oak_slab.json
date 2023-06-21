@@ -6,6 +6,7 @@
       "conditions": {
         "items": [
           {
+            "item": "minecraft:oak_slab",
             "items": [
               "minecraft:oak_slab"
             ]
