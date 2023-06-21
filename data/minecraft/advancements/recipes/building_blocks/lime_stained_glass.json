@@ -1,11 +1,18 @@
 {
+  "//": [
+    "参照1.20的新染色配方重写的获取方式",
+    "1.17修改了物品谓词,'has_needed_dye'处做兼容处理"
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_glass": {
+    "has_needed_dye": {
       "conditions": {
         "items": [
           {
-            "tag": "rpp:glass"
+            "item": "minecraft:lime_dye",
+            "items": [
+              "minecraft:lime_dye"
+            ]
           }
         ]
       },
@@ -20,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_glass",
+      "has_needed_dye",
       "has_the_recipe"
     ]
   ],
