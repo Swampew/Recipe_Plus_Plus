@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "category": "misc",
-  "ingredient": {
-    "tag": "minecraft:saplings"
-  },
-  "result": "minecraft:dead_bush",
-  "cookingtime": 600
-}
