@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1":{
+      "item": "minecraft:phantom_membrane"
+    },
+    "2":{
+      "item": "minecraft:shulker_shell"
+    },
+    "3":{
+      "item": "minecraft:dragon_head"
+    },
+    "4":{
+      "item": "minecraft:dragon_breath"
+    },
+    "5":{
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "pattern": [
+    "232",
+    "151",
+    "141"
+  ],
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}

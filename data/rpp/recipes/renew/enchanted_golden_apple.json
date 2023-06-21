@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1":{
+      "item": "minecraft:golden_apple"
+    },
+    "2":{
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "222",
+    "212",
+    "222"
+  ],
+  "result": {
+    "item": "minecraft:enchanted_golden_apple"
+  }
+}
